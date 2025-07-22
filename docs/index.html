@@ -24,8 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Building hard !</title>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -209,19 +208,22 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3">Results LaFan1 (short training)</h2>
       <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
         <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Input
           <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
             <source src="static/videos/input.mp4" type="video/mp4">
           </video>
         </div>
         <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Reconstruction
           <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
             <source src="static/videos/recon.mp4" type="video/mp4">
           </video>
         </div>
         <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Opti
           <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
             <source src="static/videos/opti.mp4" type="video/mp4">
           </video>
@@ -232,7 +234,252 @@
 </section>
 <!-- End videos -->
 
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Easy parametrisation Af(alpha*x + beta) + B</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg Amplitude decrease : A = 0.5
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/amplitude0.5.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg Amplitude increased : A = 2
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/amplitude2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Whole animation faster : alpha = 2
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/faster.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg in advance : beta = 0.2
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/in_advance.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg late : beta = -0.2
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/late.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg spatial offset : B = 0.5
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/parametrisation/animation_offset.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
 
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">FFT parametrisation (used in the rest)</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg Amplitude decrease
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/fft/amplitude0.5.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg Amplitude increased
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/fft/amplitude2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Whole animation faster : alpha = 2
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/fft/" type="video/mp4">
+          </video>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Contacts</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Contact hands / hips
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contacts_hips.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Contact hand / feet - only optimize upper body
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Contact hand / feet - optimize full body
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet_opti_feet_fail.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Contact head - optimize hand
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_head.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet_opti_feet_fail.mp4" type="video/mp4">
+          </video>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Contacts ground</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Leg amplitude x2 but keeping the contacts with the ground
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/fft/amplitude2_and_contacts.mp4" type="video/mp4">
+          </video>
+        </div>
+          Manually moving the root but keeping contacts
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/climbing_stairs.mp4" type="video/mp4">
+          </video>
+        </div> -->
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet_opti_feet_fail.mp4" type="video/mp4">
+          </video>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Semantic separation (reconstruction vs edited reconstruction)</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Increase amplitude of channel 0 - Leg amplitude
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/edit_ampl_leg.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Increase amplitude of channel 1 - Knee bending
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/edit_knee_bend.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet_opti_feet_fail.mp4" type="video/mp4">
+          </video>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Interpolation</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Motion crounch + motion walking with continuity constraints
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/interpolation.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Increase amplitude of channel 1 - Knee bending
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/edit_knee_bend.mp4" type="video/mp4">
+          </video>
+        </div> -->
+        <!-- <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/contact_hand_feet_opti_feet_fail.mp4" type="video/mp4">
+          </video>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
+
+<!-- Videos -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">100 Styles (reconstruction task on unseen styles) - Input vs Reconstruction</h2>
+      <div class="video-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Spinning
+          <video poster="" id="video1" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/100_styles/spinning.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Superman
+          <video poster="" id="video2" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/100_styles/superman.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-wrapper" style="flex: 1 1 30%; max-width: 30%;">
+          Arms above head (failure)
+          <video poster="" id="video3" autoplay controls muted loop style="width: 100%; height: auto;">
+            <source src="static/videos/100_styles/Arms_above_head.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End videos -->
 
 <!-- Paper poster -->
 <!-- <section class="hero is-small is-light">
