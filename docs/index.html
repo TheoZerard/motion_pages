@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Building hard !</title>
+  <title>3D Motion Editing based on Signal Latent Space Control</title>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -51,26 +51,28 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Currently being built !</h1>
+            <h1 class="title is-1 publication-title">3D Motion Editing based on Signal Latent Space Control</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Théo Gérard</a><sup></sup>,</span>
+                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Théo Gérard</a><sup></sup>,</span> -->
+                Théo Gérard<sup></sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup></sup>,</span>
+                  <a href="https://people.irisa.fr/Marc.Christie/" target="_blank">Marc Christie</a><sup></sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://people.rennes.inria.fr/Ludovic.Hoyet/" target="_blank">Ludovic Hoyet</a><sup></sup>,</span>
+                  <span class="author-block">
+                    <a href="https://people.irisa.fr/Pierre.Hellier/" target="_blank">Pierre Hellier</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">IRISA, Université de Rennes<br> <!-- Indicate here the conference and the year --></span>
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
-                  <div class="column has-text-centered">
+                  <!-- <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
                       <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
@@ -81,7 +83,6 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -92,7 +93,6 @@
                     </a>
                   </span>
 
-                  <!-- Github link -->
                   <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
@@ -103,7 +103,6 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -114,7 +113,7 @@
                 </a>
               </span>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -146,7 +145,24 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+
+            Artists often use sounds and gestures to explain how they perceive a certain
+            motion, as this is often easier to describe visual features such as frequency,
+            anticipation, and explosivity than just using text. We aim to use those inputs
+            to create a multimodal deep learning model able to edit existing motions.<br>
+            <br>
+            However, aligning multiple arbitrary spaces encoded from different features is
+            a non-trivial task and often requires paired datasets that might not exist. This
+            can be circumvented by finding similar characteristics in both spaces; for
+            instance, one can realize that both motion and sounds can be represented by
+            different frequencies and scales. Moreover, 3D animation softwares widely
+            use signals in the form of animation curves, which makes it an appropriate
+            choice for artists.<br>
+            <br>
+            In addition, by pairing signal characteristics, there is potential for enabling
+            precise control over motion features. Therefore, we create a latent space
+            based on signals that could be edited to modify the resulting animation.
+
           </p>
         </div>
       </div>
@@ -527,12 +543,12 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
